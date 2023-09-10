@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function TodoForm({ addTodo}) {
+function TodoForm({ addTodo }) {
   const [value, setValue] = useState("");
   const [category, setCategory] = useState("");
 
@@ -13,7 +13,7 @@ function TodoForm({ addTodo}) {
   }
   return (
     <div className='todo-form'>
-      <h2>Create Task:</h2>
+      <h2>Create Task</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder='Enter title' value={value} onChange={(e) => setValue(e.target.value)} />
         <select value={category} onChange={(e) => setCategory(e.target.value)}>
