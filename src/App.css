@@ -4,7 +4,7 @@ body{
   font-family: 'Poppins', sans-serif;
   background-color: #121212;
   padding: 30px;
-  color: #dedede
+  color: #dedede;
 }
 
 .app {
@@ -29,4 +29,43 @@ p{
 
 input{
   box-sizing: border-box;
+}
+
+button {
+  background-color: #4422EF;
+  color: #dedede;
+  padding: 5px 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.complete{
+  background-color: #23EEA7;
+}
+
+.remove{
+  background-color: #F61156;
+}
+
+.todo-form{
+  padding-bottom: 1.5rem;
+}
+
+input, select{
+  background-color: #1E1E1E;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #383838;
+  border-radius: 5px;
+  width: 100%;
+  color: #dedede;
 }
