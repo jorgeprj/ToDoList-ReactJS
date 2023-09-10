@@ -24,7 +24,7 @@ h2{
 }
 
 p{
-  margin: 10px 0;
+  margin: 10px 10px;
 }
 
 input{
@@ -35,6 +35,7 @@ button {
   background-color: #4422EF;
   color: #dedede;
   padding: 5px 10px;
+  margin-right: 10px;
   cursor: pointer;
   opacity: 0.8;
   transition: 0.3s;
@@ -56,6 +57,23 @@ button:hover {
   background-color: #F61156;
 }
 
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #42434C;
+}
+
+.todo {
+  background-color: #232323;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .todo-form{
   padding-bottom: 1.5rem;
 }
@@ -68,4 +86,5 @@ input, select{
   border-radius: 5px;
   width: 100%;
   color: #dedede;
+  font-size: 14px;
 }

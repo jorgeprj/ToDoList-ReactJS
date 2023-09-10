@@ -27,16 +27,31 @@ function App() {
 		}
 	]);
 
+	const addTodo = (title, category) => {
+
+		const newTodo = [
+			...todos, 
+			{
+				id: todos.length + 1,
+				title,
+				category,
+				isCompleted: false
+			}
+		]
+
+		setTodos(newTodo);
+	}
+
 	return (
 		<div className='app'>
 			<h1>To Do List</h1>
 			<div className='todo-list'>
 				{todos.map((todo) => (
-					<Todo todo={todo} />
+					<Todo key={todo.id} todo={todo} />
 				))}
 			</div>
 			<div>
-				<TodoForm />
+				<TodoForm addTodo={addTodo} />
 			</div>
 		</div>
 	)
