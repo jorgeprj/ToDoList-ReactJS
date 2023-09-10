@@ -6,9 +6,11 @@ const GitHubButton = ({ username, repository }) => {
   const githubUrl = `https://github.com/${username}/${repository}`;
 
   return (
-    <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="github-button">
-      <FaGithub /> Repository
-    </a>
+    <div className='github' >
+      <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="github-button">
+        <FaGithub /> Repository
+      </a>
+    </div>
   );
 };
 
