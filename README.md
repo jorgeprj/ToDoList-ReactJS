@@ -2,7 +2,7 @@
 
 This is a React-based "To-Do List" project created for the purpose of learning and practicing web development concepts. This project was inspired by Matheus Battisti's tutorial, which you can find [here](https://github.com/matheusbattisti). You can also watch the tutorial video [here](https://www.youtube.com/watch?v=YVEVrigByKY).
 
-![To-Do List](public/assets/print.png)
+![To-Do List](public/assets/print1.png)
 
 ## How to Run?
 
